@@ -100,6 +100,7 @@ class TicTacToe
   end
 
   def play
+    turn
     if won? 
       puts "Congratulations #{winner}!"
     else
