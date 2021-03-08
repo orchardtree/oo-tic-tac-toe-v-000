@@ -100,7 +100,7 @@ class TicTacToe
   end
 
   def play
-    if won? != nil
+    if won? == nil
       until over?
         turn
       end
