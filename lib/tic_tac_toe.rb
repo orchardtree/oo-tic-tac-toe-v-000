@@ -101,7 +101,6 @@ class TicTacToe
 
   def play
     until over?
-      won?
       turn
     end
     if won?
@@ -109,5 +108,6 @@ class TicTacToe
     else
       puts "Cat's Game!"
     end
+    won?
   end
 end
