@@ -100,6 +100,7 @@ class TicTacToe
   end
 
   def play
+    won?
     until over?
       turn
     end
