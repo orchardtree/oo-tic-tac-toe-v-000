@@ -100,10 +100,9 @@ class TicTacToe
   end
 
   def play
-    if won? == nil
-      until over?
-        turn
-      end
+    won?
+    until over?
+      turn
     end
     if won? 
       puts "Congratulations #{winner}!"
